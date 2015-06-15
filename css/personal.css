@@ -1,0 +1,121 @@
+body { 
+	display: -webkit-box;
+  	-webkit-box-orient: vertical;
+}  
+.user-header{
+	width: 100%;
+	height: 5rem;
+	background:  #ffffff;
+	border-bottom: solid 1px #cccccc;
+}
+.user-info-wrap{
+	margin: 0 auto;
+	width: 96%;
+	height: 100%;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-align: center; 
+	background: url(../image/right-bg.png) 100% 50% no-repeat;
+    background-size: auto 30%;
+}
+.user-icon{
+
+	height: 3.5rem;
+}
+.user-name{
+	margin-left: 1rem;
+	font-size: 1.2rem;
+	color: #666666;
+}
+.user-icon img{
+	height: 100%;
+	opacity: 0.6
+}
+
+.common-list{
+	margin-top: 0.6rem;
+	width: 100%;
+	height: auto;
+	background: #ffffff;
+	border-top: solid 1px #dddddd;
+	border-bottom: solid 1px #dddddd;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-align: center; 
+	-webkit-box-pack: center; 
+
+}
+.common-list li{
+	width: 96%;
+	height:2.5rem;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack: center; 
+	background: url(../image/right-bg.png) 100% 50% no-repeat;
+	background-size: auto 40%;
+	border-top: solid 1px #f2f2f2;
+}
+.user-account li{
+	
+}
+.common-list li:first-child{
+	border-top: none;
+}
+
+
+
+.icon-credit-card{
+	color: #F76519;
+}
+.icon-leaf{
+	color: #1BA827;
+}
+
+.icon-envelope{
+	color: #3BA7C0;
+}
+.icon-file{
+	color: #A81B3B;
+}
+.icon-eye-open{
+	color: #E48541;
+}
+.icon-time{
+	color: #929D93;
+}
+.icon-group{
+	color: #D56839;
+}
+.icon-comments{
+	color: #30af8d;
+}
+.icon-calendar{
+	color: #246bae;
+}
+
+
+
+
+.common-list i{
+	margin-right: 0.5rem;
+}
+.cre-start{
+	color: #666666;
+}
+.cre-start i{
+	margin-right: 0.5rem;
+	color: #FF6100
+}
+.coomon-list-item{
+	color: #666666;
+	margin-right: 0.5rem;
+}
+.item-tips{
+    float: right;
+    margin-right: 1.5rem;
+	font-size: 0.8rem;
+	color: #999999;
+}
+.common-list li i{
+	font-size: 1rem;
+}

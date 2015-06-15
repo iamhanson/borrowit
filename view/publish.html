@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>借吧</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" type="text/css" href="../css/fontawesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/common.css" />
+        <link rel="stylesheet" type="text/css" href="../css/publish.css" />
+        <script src="../script/lib/zepto.js"></script>
+        <script src="../script/service/common.js"></script>
+        <script src="../script/service/list.js"></script>
+
+    </head>
+    <body style="position:relative">
+        <div class="photo">
+            <span class="photo-btn" id="photo_btn"><i class="icon-camera"></i></span>
+        </div>
+        <div class="input-colum-wrap">
+            <div class="input-colum out-need">
+                <div class="input-label">供 需</div>
+                <div class="input-field"><span>借出</span><span>想借</span></div>
+            </div>
+            <div class="input-colum title">
+                <div class="input-label">标 题</div>
+                <div class="input-field">
+                    <input type="text" name="title" placeholder="请在这里输入描述内容" />
+                </div>
+            </div>
+            <div class="input-colum price">
+                <div class="input-label">押 金</div>
+                <div class="input-field">
+                    <input type="text" name="price" placeholder="押金可以不填" />
+                </div>
+            </div>
+            <div class="input-colum description">
+                <div class="input-label">描 述</div>
+                <div class="input-field">
+                    <textarea type="text" placeholder="请在这里输入描述内容" name="description"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="input-colum-wrap">
+            <div class="input-colum phonenumber mt-col">
+                <div class="input-label">手 机</div>
+                <div class="input-field">
+                    <input type="text" placeholder="请在这里输入11位手机号码" name="phonenumber" />
+                </div>
+            </div>
+            <div class="input-colum location">
+                <div class="input-label">区 域</div>
+                <div class="input-field"><span>蜀山区</span></div>
+            </div>
+        </div>
+        <div class="publish-confirm"><span id="confirm_publish">确认发布</span></div>
+    </body>
+</html>

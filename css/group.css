@@ -1,0 +1,122 @@
+.group-wrap{
+	height: 2.5rem;
+	width: 100%;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+}
+.group-item{
+	height: 2.5rem;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-align: center; 
+	background: #ffffff;
+	border-bottom: solid #dddddd 0.1rem;
+}
+.group-item li{
+	-webkit-box-flex:1;
+	text-align: center;
+	height: 2.3rem;
+	line-height: 2.3rem;
+	cursor: pointer;
+}
+.cur-selected{
+	border-bottom: solid #ff6610 0.3rem;
+}
+.info-wrap{
+    margin-top: 3rem;
+	height: auto;
+	width: 100%;
+}
+.info-list{
+	margin-top: 0.5rem;
+	height: auto;
+	width: 100%;
+	-webkit-box-orient:vertical;
+	display: -webkit-box;
+	overflow: hidden;
+	background: #dddddd
+}
+.info-list li{
+	overflow: hidden;
+	margin-bottom: 0.5rem;
+	background: #ffffff;
+	border-bottom: 1px solid #f2f2f2;
+	width: 100%;
+	-webkit-box-pack:center;
+}
+.operate-wrap{
+	width: 100%;
+    margin-top: 0.3rem;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	color: #999999;
+	font-size: 1rem;
+}
+.operate-wrap li{
+	-webkit-box-flex:1;
+	text-align: center;
+	border-bottom: none;
+	border-top: solid 1px #f2f2f2;
+	height: 2rem;
+	line-height: 2rem;
+	margin-bottom: 0;
+    text-overflow:ellipsis;
+    font-size: 0.8rem;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.operate-wrap i{
+	padding-right: 0.3rem;
+	font-size: 0.6rem;
+	color: #999999;
+}
+.publish-item-title{
+	margin: 0.5rem auto;
+    color: #666666;
+	width: 95%;
+	font-size: 0.8rem;
+	line-height: 1.5rem;
+}
+.publisher{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-align:center;
+	height: 2rem;
+	margin: 0.5rem auto 0;
+	width: 96%;
+}
+.publisher span{
+	display: block;
+	height: 2rem;
+	line-height: 2rem;
+}
+.publisher span.user-img{
+	height: 1.8rem;
+	width: 1.8rem;
+	border-radius: 1.8rem;
+	overflow: hidden;
+	border:solid 0.1rem #f2f2f2;
+}
+span.user-img img{
+	width: 100%;
+	height: 100%;
+}
+.publisher span.user-nickname{
+	margin-left: 0.5rem;
+	font-size: 1rem;
+	color: #333333;
+}
+.publisher span.sexy{
+	height: 2rem;
+	width: 2rem;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.publisher span.girl{
+	background-image: url(../image/icon_girl.png);
+}
+.publisher span.boy{
+	background-image: url(../image/icon_boy.png);
+}
